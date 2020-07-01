@@ -8,7 +8,37 @@
 </head>
 <body>
 <div class="container">
- <p>Hello World!</p>
+	<p>Hello World!</p>
+	<button data-modal="consultation" class="button">Вызов модального окна</button>
+	<div class="overlay">
+		<div class="modal" id="consultation">
+			<div class="modal__close">&times;</div>
+			<div class="modal__subtitle">Привет сучка</div>
+			<div class="modal__descr"></div>
+			<form action="#" class="feed-form">
+				<input name="name" required placeholder="Ваше имя" type="text">
+				<input name="phone" required placeholder="Ваш телефон" type="number">
+				<input name="email" required placeholder="Ваш E-mail" type="email">
+
+				<button class="button button_submit">Заказать консультацию</button>
+			</form>
+		</div>
+
+		<div class="modal" id="order">
+			<div class="modal__close">&times;</div>
+			<div class="modal__subtitle">Форма 2</div>
+			<div class="modal__descr"></div>
+			<form action="#" class="feed-form">
+				<input name="name" required placeholder="Ваше имя" type="text">
+				<input name="phone" required placeholder="Ваш телефон" type="number">
+				<input name="email" required placeholder="Ваш E-mail" type="email">
+
+				<button class="button button_submit">Заказать консультацию</button>
+			</form>
+		</div>
+	</div>
+	<button data-modal="consultation" class="button">Заказать консультацию</button>
+	<button class="button button__mini">Купить</button>
 </div>
 <script src="js/all.min.js"></script>
 </body>
