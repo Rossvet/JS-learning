@@ -30,23 +30,121 @@
 // console.log(10%6);
 
 
-const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
+// if (4 == 9) {
+//     console.log('Ok!');
+// } else {
+//     console.log('Error!');
+// }
+
+// if (num < 49) {
+//     console.log('Error!');
+// } else if (num > 100) {
+//     console.log('More!');
+// } else { 
+//     console.log('Good!');
+// }
 
 
-const personalMovieDB = {
-    count: numberOfFilms,
-    movies: {}, // в это свойство поместить пустой объект
-    actors: {}, // тоже поместить пустой объект
-    genres: [], // сюда поместить пустой массив
-    privat: false // - в это свойство поместить boolean(логическое) значение false
-};
-    
-const a = prompt('Один из последних просмотренных фильмов?', ''),
-      b = prompt('На сколько оцените его?', ''),
-      c = prompt('Один из последних просмотренных фильмов?', ''),
-      d = prompt('На сколько оцените его?', '');
+// (num === 50) ? console.log('Fine!') : console.log('Bad!');
 
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
 
-console.log(personalMovieDB);
+
+// switch (num) {
+//     case 49:
+//         console.log('Не верно!');
+//         break;
+//     case 100:
+//         console.log('Не верно!');
+//         break;
+//         case 50:
+//             console.log('Верно!');
+//             break;
+//         default:
+//             console.log('Не сегодня!');
+//             break;
+// }
+
+// let num = 50;
+
+// while (num <= 55) {
+//     console.log(num);
+//     num++;
+// }
+
+//В начале делаем, потом проверяем условия и если нужно выходим из цикла!
+
+// let num = 50;
+
+// // do {
+// //     console.log(num);
+// //     num++;
+// // }
+// // while (num <= 55);
+
+
+// for (let i = 1; i <= 8; i++) {
+//     if (i === 6) {
+//         break;
+//     }
+
+//     console.log(i);
+// }
+
+// let num = 20;
+
+// function showFirstMassage(text) {
+//     console.log(text);
+//     num = 10;
+// }
+
+// showFirstMassage("Hello World");
+// console.log(num);
+
+
+// function calc(a, b) {
+//     return (a + b) ;
+// }
+
+// console.log(calc(4, 3));
+// console.log(calc(8, 12));
+
+// function ret() {
+//     let num = 50;
+//     return num;
+// }
+
+// const anotherNum = ret();
+// console.log(anotherNum);
+
+
+// const calc2 = (a, b) => a + b;
+
+
+const str = "test";
+
+// console.log(str[2] = 'd');
+
+
+
+console.log(str.toUpperCase());
+console.log(str);
+
+let fruit = "Some fruit";
+console.log(fruit.indexOf("r"));
+
+
+
+
+const logg = "Hello World";
+// console.log(logg.slice(6, 11));
+
+// console.log(logg.substring(6, 11));
+
+console.log(logg.substr(6, 5));
+
+const num = 12.2;
+console.log(Math.round(num));
+
+const test = "12.2px";
+console.log(parseInt(test));
+console.log(parseFloat(test));
